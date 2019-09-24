@@ -1,0 +1,13 @@
+Steps for executing the implementation: 
+1. Open cmd for every router you wish to create.  
+2. Go to the source folder.  
+	For example:-  cd C:\Workspaces\DistanceVector\DistanceVectorAlgorithm\src 
+3. Compile the source using javac command. 
+	For example:-  javac *.java 
+4. Run the CreateRouter.java file with the required paths of portFile and router file passed as command line arguments. Both the paths should be separated by space. 
+	For example:-  java CreateRouter C:\Users\DELL\Documents\Coursework\CCN\DistanceVector\portRouter.dat C:\Users\DELL\Documents\Coursework\CCN\DistanceVector\6NodeGraph\a.dat 
+	This will start the router with id a. 
+5. Repeat the steps 1, 2 and 4 for each router in the network topology.
+
+Note: In the submitted folder I have included a portRouter.dat file which contains ports for routers "a" through "f" for the topology mentioned in the problem statement.
+I have also included a folder named "6NodeGraph" which contains the .dat files for each of the routers for the same topology mentioned in the problem statement.
